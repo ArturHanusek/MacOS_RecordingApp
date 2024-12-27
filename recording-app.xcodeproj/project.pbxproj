@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3466C02D1F4912000F4183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466BF2D1F4912000F4183 /* AppDelegate.swift */; };
+		CB3466C22D1F4913000F4183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3466C12D1F4913000F4183 /* Assets.xcassets */; };
+		CB3466C52D1F4913000F4183 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3466C32D1F4913000F4183 /* MainMenu.xib */; };
+		CB3466D02D1F4914000F4183 /* recording_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466CF2D1F4914000F4183 /* recording_appTests.swift */; };
+		CB3466DA2D1F4914000F4183 /* recording_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466D92D1F4914000F4183 /* recording_appUITests.swift */; };
+		CB3466DC2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466DB2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3466CC2D1F4914000F4183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3466B42D1F4912000F4183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3466BB2D1F4912000F4183;
+			remoteInfo = "recording-app";
+		};
+		CB3466D62D1F4914000F4183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3466B42D1F4912000F4183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3466BB2D1F4912000F4183;
+			remoteInfo = "recording-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB3466BC2D1F4912000F4183 /* recording-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recording-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3466BF2D1F4912000F4183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB3466C12D1F4913000F4183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3466C42D1F4913000F4183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB3466C62D1F4913000F4183 /* recording_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = recording_app.entitlements; sourceTree = "<group>"; };
+		CB3466CB2D1F4914000F4183 /* recording-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recording-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3466CF2D1F4914000F4183 /* recording_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recording_appTests.swift; sourceTree = "<group>"; };
+		CB3466D52D1F4914000F4183 /* recording-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recording-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3466D92D1F4914000F4183 /* recording_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recording_appUITests.swift; sourceTree = "<group>"; };
+		CB3466DB2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recording_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3466B92D1F4912000F4183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3466C82D1F4914000F4183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3466D22D1F4914000F4183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3466B32D1F4912000F4183 = {
+			isa = PBXGroup;
+			children = (
+				CB3466BE2D1F4912000F4183 /* recording-app */,
+				CB3466CE2D1F4914000F4183 /* recording-appTests */,
+				CB3466D82D1F4914000F4183 /* recording-appUITests */,
+				CB3466BD2D1F4912000F4183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3466BD2D1F4912000F4183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3466BC2D1F4912000F4183 /* recording-app.app */,
+				CB3466CB2D1F4914000F4183 /* recording-appTests.xctest */,
+				CB3466D52D1F4914000F4183 /* recording-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3466BE2D1F4912000F4183 /* recording-app */ = {
+			isa = PBXGroup;
+			children = (
+				CB3466BF2D1F4912000F4183 /* AppDelegate.swift */,
+				CB3466C12D1F4913000F4183 /* Assets.xcassets */,
+				CB3466C32D1F4913000F4183 /* MainMenu.xib */,
+				CB3466C62D1F4913000F4183 /* recording_app.entitlements */,
+			);
+			path = "recording-app";
+			sourceTree = "<group>";
+		};
+		CB3466CE2D1F4914000F4183 /* recording-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3466CF2D1F4914000F4183 /* recording_appTests.swift */,
+			);
+			path = "recording-appTests";
+			sourceTree = "<group>";
+		};
+		CB3466D82D1F4914000F4183 /* recording-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3466D92D1F4914000F4183 /* recording_appUITests.swift */,
+				CB3466DB2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift */,
+			);
+			path = "recording-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3466BB2D1F4912000F4183 /* recording-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3466DF2D1F4914000F4183 /* Build configuration list for PBXNativeTarget "recording-app" */;
+			buildPhases = (
+				CB3466B82D1F4912000F4183 /* Sources */,
+				CB3466B92D1F4912000F4183 /* Frameworks */,
+				CB3466BA2D1F4912000F4183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recording-app";
+			productName = "recording-app";
+			productReference = CB3466BC2D1F4912000F4183 /* recording-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB3466CA2D1F4914000F4183 /* recording-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3466E22D1F4914000F4183 /* Build configuration list for PBXNativeTarget "recording-appTests" */;
+			buildPhases = (
+				CB3466C72D1F4914000F4183 /* Sources */,
+				CB3466C82D1F4914000F4183 /* Frameworks */,
+				CB3466C92D1F4914000F4183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3466CD2D1F4914000F4183 /* PBXTargetDependency */,
+			);
+			name = "recording-appTests";
+			productName = "recording-appTests";
+			productReference = CB3466CB2D1F4914000F4183 /* recording-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB3466D42D1F4914000F4183 /* recording-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3466E52D1F4914000F4183 /* Build configuration list for PBXNativeTarget "recording-appUITests" */;
+			buildPhases = (
+				CB3466D12D1F4914000F4183 /* Sources */,
+				CB3466D22D1F4914000F4183 /* Frameworks */,
+				CB3466D32D1F4914000F4183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3466D72D1F4914000F4183 /* PBXTargetDependency */,
+			);
+			name = "recording-appUITests";
+			productName = "recording-appUITests";
+			productReference = CB3466D52D1F4914000F4183 /* recording-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3466B42D1F4912000F4183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CB3466BB2D1F4912000F4183 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CB3466CA2D1F4914000F4183 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CB3466BB2D1F4912000F4183;
+					};
+					CB3466D42D1F4914000F4183 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CB3466BB2D1F4912000F4183;
+					};
+				};
+			};
+			buildConfigurationList = CB3466B72D1F4912000F4183 /* Build configuration list for PBXProject "recording-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3466B32D1F4912000F4183;
+			productRefGroup = CB3466BD2D1F4912000F4183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3466BB2D1F4912000F4183 /* recording-app */,
+				CB3466CA2D1F4914000F4183 /* recording-appTests */,
+				CB3466D42D1F4914000F4183 /* recording-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3466BA2D1F4912000F4183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3466C22D1F4913000F4183 /* Assets.xcassets in Resources */,
+				CB3466C52D1F4913000F4183 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3466C92D1F4914000F4183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3466D32D1F4914000F4183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3466B82D1F4912000F4183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3466C02D1F4912000F4183 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3466C72D1F4914000F4183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3466D02D1F4914000F4183 /* recording_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3466D12D1F4914000F4183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3466DC2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift in Sources */,
+				CB3466DA2D1F4914000F4183 /* recording_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3466CD2D1F4914000F4183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3466BB2D1F4912000F4183 /* recording-app */;
+			targetProxy = CB3466CC2D1F4914000F4183 /* PBXContainerItemProxy */;
+		};
+		CB3466D72D1F4914000F4183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3466BB2D1F4912000F4183 /* recording-app */;
+			targetProxy = CB3466D62D1F4914000F4183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB3466C32D1F4913000F4183 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3466C42D1F4913000F4183 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB3466DD2D1F4914000F4183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB3466DE2D1F4914000F4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CB3466E02D1F4914000F4183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "recording-app/recording_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T7893SJ52;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.recording-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CB3466E12D1F4914000F4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "recording-app/recording_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T7893SJ52;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.recording-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CB3466E32D1F4914000F4183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T7893SJ52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.recording-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recording-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recording-app";
+			};
+			name = Debug;
+		};
+		CB3466E42D1F4914000F4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T7893SJ52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.recording-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recording-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recording-app";
+			};
+			name = Release;
+		};
+		CB3466E62D1F4914000F4183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T7893SJ52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.recording-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "recording-app";
+			};
+			name = Debug;
+		};
+		CB3466E72D1F4914000F4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T7893SJ52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.upwork.recording-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "recording-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3466B72D1F4912000F4183 /* Build configuration list for PBXProject "recording-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3466DD2D1F4914000F4183 /* Debug */,
+				CB3466DE2D1F4914000F4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3466DF2D1F4914000F4183 /* Build configuration list for PBXNativeTarget "recording-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3466E02D1F4914000F4183 /* Debug */,
+				CB3466E12D1F4914000F4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3466E22D1F4914000F4183 /* Build configuration list for PBXNativeTarget "recording-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3466E32D1F4914000F4183 /* Debug */,
+				CB3466E42D1F4914000F4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3466E52D1F4914000F4183 /* Build configuration list for PBXNativeTarget "recording-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3466E62D1F4914000F4183 /* Debug */,
+				CB3466E72D1F4914000F4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB3466B42D1F4912000F4183 /* Project object */;
+}
