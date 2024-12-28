@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		CB3466D02D1F4914000F4183 /* recording_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466CF2D1F4914000F4183 /* recording_appTests.swift */; };
 		CB3466DA2D1F4914000F4183 /* recording_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466D92D1F4914000F4183 /* recording_appUITests.swift */; };
 		CB3466DC2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3466DB2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift */; };
+		CB3A23B62D1F4B7700179FD8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB3A23B52D1F4B7700179FD8 /* Info.plist */; };
+		CB3A23BA2D1F4BB800179FD8 /* RecordingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A23B72D1F4BB800179FD8 /* RecordingApp.swift */; };
+		CB3A23BB2D1F4BB800179FD8 /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A23B82D1F4BB800179FD8 /* ScreenRecorder.swift */; };
+		CB3A23BC2D1F4BB800179FD8 /* CommandListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A23B92D1F4BB800179FD8 /* CommandListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		CB3466D52D1F4914000F4183 /* recording-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recording-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3466D92D1F4914000F4183 /* recording_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recording_appUITests.swift; sourceTree = "<group>"; };
 		CB3466DB2D1F4914000F4183 /* recording_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recording_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB3A23B52D1F4B7700179FD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3A23B72D1F4BB800179FD8 /* RecordingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingApp.swift; sourceTree = "<group>"; };
+		CB3A23B82D1F4BB800179FD8 /* ScreenRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
+		CB3A23B92D1F4BB800179FD8 /* CommandListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,13 +101,17 @@
 		CB3466BE2D1F4912000F4183 /* recording-app */ = {
 			isa = PBXGroup;
 			children = (
+				CB3A23B92D1F4BB800179FD8 /* CommandListener.swift */,
+				CB3A23B72D1F4BB800179FD8 /* RecordingApp.swift */,
+				CB3A23B82D1F4BB800179FD8 /* ScreenRecorder.swift */,
+				CB3A23B52D1F4B7700179FD8 /* Info.plist */,
 				CB3466BF2D1F4912000F4183 /* AppDelegate.swift */,
 				CB3466C12D1F4913000F4183 /* Assets.xcassets */,
 				CB3466C32D1F4913000F4183 /* MainMenu.xib */,
 				CB3466C62D1F4913000F4183 /* recording_app.entitlements */,
 			);
 			path = "recording-app";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		CB3466CE2D1F4914000F4183 /* recording-appTests */ = {
 			isa = PBXGroup;
@@ -198,7 +210,6 @@
 				};
 			};
 			buildConfigurationList = CB3466B72D1F4912000F4183 /* Build configuration list for PBXProject "recording-app" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -206,6 +217,7 @@
 				Base,
 			);
 			mainGroup = CB3466B32D1F4912000F4183;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = CB3466BD2D1F4912000F4183 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,6 +236,7 @@
 			files = (
 				CB3466C22D1F4913000F4183 /* Assets.xcassets in Resources */,
 				CB3466C52D1F4913000F4183 /* MainMenu.xib in Resources */,
+				CB3A23B62D1F4B7700179FD8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3466C02D1F4912000F4183 /* AppDelegate.swift in Sources */,
+				CB3A23BC2D1F4BB800179FD8 /* CommandListener.swift in Sources */,
+				CB3A23BA2D1F4BB800179FD8 /* RecordingApp.swift in Sources */,
+				CB3A23BB2D1F4BB800179FD8 /* ScreenRecorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,14 +431,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "recording-app/recording_app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4T7893SJ52;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need use microphone to record audio.";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,6 +452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "$(PROJECT_DIR)/bin";
 			};
 			name = Debug;
 		};
@@ -442,14 +462,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "recording-app/recording_app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4T7893SJ52;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need use microphone to record audio.";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "$(PROJECT_DIR)/bin";
 			};
 			name = Release;
 		};
